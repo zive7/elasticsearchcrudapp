@@ -1,0 +1,191 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Project_Zis\\Artio\\marketplace\\marketplace-integration-api\\ElasticsearchCrudDemo\\ElasticsearchCrudDemo.csproj": {}
+  },
+  "projects": {
+    "C:\\Project_Zis\\Artio\\marketplace\\marketplace-integration-api\\ElasticsearchCrudDemo\\ElasticsearchCrudDemo.csproj": {
+      "version": "2.2.0",
+      "restore": {
+        "projectUniqueName": "C:\\Project_Zis\\Artio\\marketplace\\marketplace-integration-api\\ElasticsearchCrudDemo\\ElasticsearchCrudDemo.csproj",
+        "projectName": "ElasticsearchCrudDemo",
+        "projectPath": "C:\\Project_Zis\\Artio\\marketplace\\marketplace-integration-api\\ElasticsearchCrudDemo\\ElasticsearchCrudDemo.csproj",
+        "packagesPath": "C:\\Users\\zis\\.nuget\\packages\\",
+        "outputPath": "C:\\Project_Zis\\Artio\\marketplace\\marketplace-integration-api\\ElasticsearchCrudDemo\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "CentralPackageTransitivePinningEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Project_Zis\\Artio\\marketplace\\marketplace-integration-api\\NuGet.Config",
+          "C:\\Users\\zis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/susciperent/_packaging/veritatem-packages/nuget/v3/index.json": {},
+          "https://tfs.mca.mk/DefaultCollection/_packaging/MCA/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[8.0.1, )",
+              "versionCentrallyManaged": true
+            },
+            "NEST": {
+              "target": "Package",
+              "version": "[7.17.5, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "Artio.Admin.Api.Client": "0.0.1430",
+            "Artio.Common": "0.4.254",
+            "Artio.Common.Authentication": "0.4.254",
+            "Artio.Common.Configuration": "0.4.254",
+            "Artio.Common.Logging": "0.4.254",
+            "Artio.Common.WebApi": "0.4.254",
+            "Artio.Contacts.Client": "0.0.24",
+            "Artio.Location.Services": "0.0.61",
+            "Artio.Marketplace.Classifier.Api.Client": "0.0.27",
+            "Artio.Marketplace.Supplier.Api.Client": "0.0.59",
+            "Artio.Qa": "2.0.244",
+            "Artio.SupplierSearch.ElasticSearch": "0.0.33",
+            "Artio.SupplyChain.Api.Client": "0.0.203",
+            "Asp.Versioning.Mvc": "8.1.0",
+            "Asp.Versioning.Mvc.ApiExplorer": "8.1.0",
+            "Aspire.Hosting": "8.0.0",
+            "Aspire.Hosting.AppHost": "8.0.0",
+            "AutoFixture": "4.18.1",
+            "AutoFixture.AutoMoq": "4.18.1",
+            "AutoFixture.NUnit3": "4.18.1",
+            "AutoMapper": "13.0.1",
+            "Azure.Extensions.AspNetCore.Configuration.Secrets": "1.3.2",
+            "Azure.Identity": "1.12.0",
+            "CompanyHub.Api.Client": "0.0.30",
+            "coverlet.msbuild": "6.0.2",
+            "Dapper": "2.1.35",
+            "FluentAssertions": "6.12.2",
+            "FluentValidation": "11.11.0",
+            "FluentValidation.AspNetCore": "11.3.0",
+            "Flurl": "4.0.0",
+            "Flurl.Http": "4.0.2",
+            "Marketplace.Supplier.Contracts": "0.0.59",
+            "MediatR": "12.4.1",
+            "MediatR.Extensions.FluentValidation.AspNetCore": "5.1.0",
+            "Microsoft.AspNetCore.Mvc.Abstractions": "2.2.0",
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "8.0.11",
+            "Microsoft.AspNetCore.Mvc.Testing": "8.0.11",
+            "Microsoft.Data.SqlClient": "5.2.2",
+            "Microsoft.EntityFrameworkCore": "8.0.11",
+            "Microsoft.EntityFrameworkCore.InMemory": "8.0.11",
+            "Microsoft.EntityFrameworkCore.SqlServer": "8.0.11",
+            "Microsoft.EntityFrameworkCore.Tools": "8.0.11",
+            "Microsoft.Extensions.Configuration": "8.0.0",
+            "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
+            "Microsoft.Extensions.Configuration.Binder": "8.0.2",
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": "8.0.0",
+            "Microsoft.Extensions.Configuration.Json": "8.0.1",
+            "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
+            "Microsoft.Extensions.Http": "8.0.1",
+            "Microsoft.Extensions.Http.Polly": "8.0.11",
+            "Microsoft.Extensions.Http.Resilience": "8.0.0",
+            "Microsoft.Extensions.Logging": "8.0.1",
+            "Microsoft.Extensions.Logging.Console": "8.0.1",
+            "Microsoft.Extensions.ServiceDiscovery": "8.0.0",
+            "Microsoft.Identity.Client": "4.62.0",
+            "Microsoft.NET.Test.Sdk": "17.11.1",
+            "Microsoft.Rest.ClientRuntime": "2.3.24",
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.20.1",
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.7",
+            "Moq": "4.20.72",
+            "NEST": "7.17.5",
+            "Newtonsoft.Json": "13.0.3",
+            "NuGet.CommandLine": "6.11.0",
+            "NuGet.Commands": "6.11.0",
+            "NuGet.Packaging": "6.11.0",
+            "NuGet.Protocol": "6.11.0",
+            "nunit": "3.14.0",
+            "NUnit3TestAdapter": "3.17.0",
+            "OpenTelemetry.Exporter.OpenTelemetryProtocol": "1.7.0",
+            "OpenTelemetry.Extensions.Hosting": "1.7.0",
+            "OpenTelemetry.Instrumentation.AspNetCore": "1.8.1",
+            "OpenTelemetry.Instrumentation.Http": "1.8.1",
+            "OpenTelemetry.Instrumentation.Runtime": "1.8.1",
+            "Quartz": "3.13.1",
+            "Quartz.Extensions.DependencyInjection": "3.13.1",
+            "Quartz.Extensions.Hosting": "3.13.1",
+            "Quartz.Serialization.Json": "3.13.1",
+            "Serilog.AspNetCore": "8.0.3",
+            "Serilog.Extensions.Logging": "8.0.0",
+            "Serilog.Sinks.InMemory": "0.11.0",
+            "SpecFlow.NUnit": "3.9.74",
+            "Swashbuckle.AspNetCore": "7.1.0",
+            "Swashbuckle.AspNetCore.ReDoc": "7.1.0",
+            "System.ComponentModel.Annotations": "5.0.0",
+            "System.Drawing.Common": "8.0.11",
+            "System.Formats.Asn1": "8.0.1",
+            "System.IdentityModel.Tokens.Jwt": "8.2.0",
+            "System.Net.Http": "4.3.4",
+            "System.Net.Http.Json": "8.0.1",
+            "System.Security.Cryptography.Xml": "8.0.2",
+            "System.Text.Json": "8.0.5",
+            "System.Text.RegularExpressions": "4.3.1"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
